@@ -302,7 +302,7 @@ function HeroSection({ onCTA }) {
       />
 
       <div style={{ position: "relative", maxWidth: 1200, margin: "0 auto", padding: "0 24px", width: "100%" }}>
-        <div className="grid-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40, alignItems: "center" }}>
+        <div className="grid-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40, alignItems: "stretch" }}>
           <div className="hero-text-container">
         {/* Status line */}
         <div
@@ -460,8 +460,8 @@ function HeroSection({ onCTA }) {
           ))}
         </div>
           </div>
-          <div className="hide-mobile" style={{ display: "flex", justifyContent: "flex-end" }}>
-            <img src="/src/assets/hero_terminal.png" alt="Trading Terminal" style={{ width: "100%", maxWidth: 600, borderRadius: 8, border: "1px solid #27272a", boxShadow: "0 0 40px rgba(34,197,94,0.1)" }} />
+          <div className="hide-mobile" style={{ display: "flex", justifyContent: "flex-end", height: "100%" }}>
+            <img src="/src/assets/hero_image.jpg" alt="Trading Terminal" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", borderRadius: 8, border: "1px solid #27272a", boxShadow: "0 0 40px rgba(34,197,94,0.1)" }} />
           </div>
         </div>
       </div>
