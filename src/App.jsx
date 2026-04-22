@@ -461,7 +461,7 @@ function HeroSection({ onCTA }) {
         </div>
           </div>
           <div className="hide-mobile" style={{ display: "flex", justifyContent: "flex-end", height: "100%" }}>
-            <img src="/src/assets/hero_image.jpg" alt="Trading Terminal" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", borderRadius: 8, border: "1px solid #27272a", boxShadow: "0 0 40px rgba(34,197,94,0.1)" }} />
+            <img src="https://i.postimg.cc/d0L1DSdm/20289170-6256878.jpg" alt="Trading Terminal" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", borderRadius: 8, border: "1px solid #27272a", boxShadow: "0 0 40px rgba(34,197,94,0.1)" }} />
           </div>
         </div>
       </div>
